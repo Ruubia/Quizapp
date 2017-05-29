@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome to the Friends Quiz"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"
+            android:layout_gravity="center"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter name"
+            android:layout_marginBottom="8dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.  How many sisters has Joey?"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/four"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Four"
+                android:layout_marginLeft="24dp"
+                android:textStyle="bold"
+                android:textSize="16dp"/>
+            <RadioButton
+                android:id="@+id/nine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nine"
+                android:layout_marginLeft="24dp"
+                android:textStyle="bold"
+                android:textSize="16dp"/>
+            <RadioButton
+                android:id="@+id/seven"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Seven"
+                android:layout_marginLeft="24dp"
+                android:textStyle="bold"
+                android:textSize="16dp"/>
+
+        </RadioGroup>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="2.  What was the name of ross's monkey?"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/marcel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Marcel"
+                android:layout_marginLeft="24dp"
+                android:textStyle="bold"
+                android:textSize="16dp"/>
+            <RadioButton
+                android:id="@+id/michel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Michel"
+                android:layout_marginLeft="24dp"
+                android:textStyle="bold"
+                android:textSize="16dp"/>
+            <RadioButton
+                android:id="@+id/michael"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Michael"
+                android:layout_marginLeft="24dp"
+                android:textStyle="bold"
+                android:textSize="16dp"/>
+
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="3.  What is the name of the twin sister of phoebe?"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/julie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Julie"
+                android:layout_marginLeft="24dp"
+                android:textStyle="bold"
+                android:textSize="16dp"/>
+            <RadioButton
+                android:id="@+id/ursula"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ursula"
+                android:layout_marginLeft="24dp"
+                android:textStyle="bold"
+                android:textSize="16dp"/>
+            <RadioButton
+                android:id="@+id/janice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Janice"
+                android:layout_marginLeft="24dp"
+                android:textStyle="bold"
+                android:textSize="16dp"/>
+
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="4.  What is Chandler's middle name?"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/bing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bing"
+                android:layout_marginLeft="24dp"
+                android:textStyle="bold"
+                android:textSize="16dp"/>
+            <RadioButton
+                android:id="@+id/muriel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Muriel"
+                android:layout_marginLeft="24dp"
+                android:textStyle="bold"
+                android:textSize="16dp"/>
+            <RadioButton
+                android:id="@+id/ross"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ross"
+                android:layout_marginLeft="24dp"
+                android:textStyle="bold"
+                android:textSize="16dp"/>
+
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/scoreText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginBottom="16dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:id="@+id/scoreButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Calculate score"
+            android:layout_marginTop="16dp"
+            />
+        <Button
+            android:id="@+id/clearScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Clear score"
+            android:layout_marginTop="16dp"
+            />
+    </LinearLayout>
+
+</ScrollView>

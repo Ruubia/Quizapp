@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="scoreText" type="id" />
+    <item name="Marcel" type="id" />
+    <item name="Seven" type="id" />
+    <item name="Michel" type="id" />
+    <item name="tokyo" type="id" />
+</resources>
